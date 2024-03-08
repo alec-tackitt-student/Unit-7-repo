@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Unit 7 project.sln"
+    "dotnet.defaultSolution": "Unit-7-repo.sln"
 }
