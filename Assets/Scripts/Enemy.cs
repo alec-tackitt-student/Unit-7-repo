@@ -33,7 +33,12 @@ namespace TowerDefence
                 if (transform.position == target ) index++;
                 yield return null;
             }
+            // Damage player at the end of the path
+            Player player = FindFirstObjectByType<Player>();
+            Health.TryDamage(player.gameObject, damage);
+            Destroy(gameObject);
+
         }
-        
+
     }
 }
