@@ -11,6 +11,7 @@ namespace TowerDefence
         public float fireRate = 1.0f;
         public int damage = 1;
         public int cost = 1;
+      
 
         public static int GetCost(GameObject gameObject)
         { 

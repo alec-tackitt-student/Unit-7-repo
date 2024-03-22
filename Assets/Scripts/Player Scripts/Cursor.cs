@@ -17,7 +17,7 @@ namespace TowerDefence
                 targetTile = Grid.WorldToGrid(hit.point + hit.normal * .5f);
                 return targetTile;
             }
-            return Vector3Int.one;
+            return Vector3Int.zero;
         }
 
         // Update is called once per frame

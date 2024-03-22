@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8535807722353356381}
   - component: {fileID: 6338438556310661754}
   - component: {fileID: 2356892682610061102}
+  - component: {fileID: 5732233601120257864}
   m_Layer: 2
   m_Name: Archer Tower
   m_TagString: Untagged
@@ -121,6 +122,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemiesInRange: []
   towerType: {fileID: 11400000, guid: 26cb12da9d5ca5a4eaca074e10e1c0bb, type: 2}
+--- !u!114 &5732233601120257864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4211972160765854924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b69c99ee2953a4489ec5949c2dcff41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4243756555966420487
 GameObject:
   m_ObjectHideFlags: 0

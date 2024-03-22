@@ -11,7 +11,7 @@ namespace TowerDefence
         [SerializeField] private List<GameObject> enemiesInRange = new List<GameObject>();
         public Tower_SO towerType;
         private bool firing = false;
-        GameObject enemyTarget;
+        public GameObject enemyTarget;
         Animator animator;
 
         public void Start()
@@ -50,6 +50,7 @@ namespace TowerDefence
             }
             firing = false;
         }
+       
 
         private void OnTriggerEnter(Collider other)
         {
@@ -60,6 +61,12 @@ namespace TowerDefence
         private void OnTriggerExit(Collider other)
         {
             enemiesInRange.Remove(other.gameObject);
+        }
+
+        public void GivePlayerGold()
+        {
+            int newGold = Player.gold++;
+            ValueDisplay.OnValueChange.Invoke("PlayerGold", newGold);
         }
     }
 }

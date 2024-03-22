@@ -454,7 +454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4b7f41f9e02ae04395004ae975237af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 0
+  currentHealth: 1
 --- !u!135 &2625915283409700999
 SphereCollider:
   m_ObjectHideFlags: 0
